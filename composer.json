@@ -13,9 +13,9 @@
   "require": {
     "php": ">=7.2.0",
     "vlucas/phpdotenv": "^4.1",
-    "slordef/fragmency-core": "^1.0",
-    "slordef/fragmency-router": "^1.0",
-    "slordef/fragmency-controller": "^1.0"
+    "slordef/fragmency-core": "dev-master",
+    "slordef/fragmency-router": "dev-master",
+    "slordef/fragmency-controller": "dev-master"
   },
   "minimum-stability": "dev"
 }
