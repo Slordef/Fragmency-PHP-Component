@@ -17,5 +17,5 @@
     "slordef/fragmency-router": "^1.0",
     "slordef/fragmency-controller": "^1.0"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "dev"
 }
