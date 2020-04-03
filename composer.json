@@ -15,7 +15,10 @@
     "vlucas/phpdotenv": "^4.1",
     "slordef/fragmency-core": "dev-master",
     "slordef/fragmency-router": "dev-master",
-    "slordef/fragmency-controller": "dev-master"
+    "slordef/fragmency-controller": "dev-master",
+    "slordef/fragmency-db": "dev-master",
+    "slordef/fragmency-script": "dev-master",
+    "slordef/fragmency-files": "dev-master"
   },
   "minimum-stability": "dev"
 }
