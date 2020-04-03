@@ -2,7 +2,7 @@
   "name": "slordef/fragmency-component",
   "description": "Fragmency PHP is a package for dev website easily",
   "version": "1.0.0",
-  "type": "library",
+  "type": "project",
   "license": "MIT",
   "authors": [
     {

@@ -1,0 +1,32 @@
+#!/usr/bin/env php
+<?php
+
+require "vendor/autoload.php";
+require "vendor/slordef/FragmencyCore/src/Application.php";
+require "vendor/slordef/FragmencyCore/src/Fragmency.php";
+require "vendor/slordef/FragmencyFiles/src/FilesManager.php";
+require "vendor/slordef/FragmencyFiles/src/Files.php";
+require "vendor/slordef/FragmencyDB/src/instructions/join.php";
+require "vendor/slordef/FragmencyDB/src/instructions/maxup.php";
+require "vendor/slordef/FragmencyDB/src/instructions/where.php";
+require "vendor/slordef/FragmencyDB/src/instructions/select.php";
+require "vendor/slordef/FragmencyDB/src/instructions/insert.php";
+require "vendor/slordef/FragmencyDB/src/instructions/update.php";
+require "vendor/slordef/FragmencyDB/src/instructions/delete.php";
+require "vendor/slordef/FragmencyDB/src/instructions/orderby.php";
+require "vendor/slordef/FragmencyDB/src/instructions/limit.php";
+require "vendor/slordef/FragmencyDB/src/DatabaseManager.php";
+require "vendor/slordef/FragmencyDB/src/Database.php";
+require "vendor/slordef/FragmencyDB/src/DB.php";
+require "vendor/slordef/FragmencyScript/src/Migrations/Table.php";
+require "vendor/slordef/FragmencyScript/src/Migrations/Column.php";
+require "vendor/slordef/FragmencyScript/src/Migrations/Migration.php";
+require "vendor/slordef/FragmencyScript/src/Migrations/MigrationManager.php";
+require "vendor/slordef/FragmencyScript/src/ScriptOutput.php";
+require "vendor/slordef/FragmencyScript/src/Script.php";
+require "vendor/slordef/FragmencyScript/src/ScriptDB.php";
+require "vendor/slordef/FragmencyScript/src/ScriptError.php";
+require "vendor/slordef/FragmencyScript/src/Parser.php";
+
+$script = new \FragmencyScript\Script();
+exit();

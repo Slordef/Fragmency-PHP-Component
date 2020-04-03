@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Fragmency</title>
+    <style>
+        body{
+            font-family: 'Shadows Into Light';
+            background-color: transparent;
+        }
+        .box{
+            position: fixed;
+            top: -5%;
+            left: -5%;
+            bottom: -5%;
+            right: -5%;
+            z-index: -1;
+            filter: drop-shadow(30px 0px 10px #a2e2ff);
+        }
+        .background{
+            width: 100%;
+            height: 100%;
+            background-color: #a2e2ff;
+            /*clip-path: polygon(0 0, 90% 0%, 15% 100%, 0% 100%);*/
+            clip-path: ellipse(140% 160% at -50% -40%) view-box;
+        }
+        .visual{
+            margin: 200px auto;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .title{
+            font-family: 'Montserrat';
+            font-size: 2.5em;
+            -webkit-text-fill-color: black;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #C_Fragmency{
+            width: 110px;
+            vertical-align: middle;
+        }
+
+        @media screen and (min-width: 700px) {
+            .visual{
+                font-size: 2.5vw;
+            }
+            #C_Fragmency {
+                width: 8vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"><div class="background"></div></div>
+    <div class="visual">
+        <h1 class="title">
+            <div><svg id="C_Fragmency" data-name="C_Fragmency" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.55 195.55">
+                <defs>
+                    <style>.cls-1{fill:#fff;}</style>
+                </defs>
+                <title>Fragmency</title>
+                <rect class="cls-1" x="16.63" y="107.63" width="75.73" height="75.73" transform="translate(-102.15 158.04) rotate(-75)"/>
+                <path d="M31.26,105.25l63.49,17-17,63.49-63.49-17,17-63.49M24.19,93,2,175.81,84.81,198,107,115.19,24.19,93Z" transform="translate(-2 -2.45)"/>
+                <rect class="cls-1" x="109" y="108" width="75" height="75" transform="translate(-33.96 246.9) rotate(-75)"/>
+                <path d="M123.52,105.7l62.78,16.82L169.48,185.3,106.7,168.48l16.82-62.78m-7.07-12.25-22,82.1,82.1,22,22-82.1-82.1-22Z" transform="translate(-2 -2.45)"/>
+                <rect class="cls-1" x="110" y="10.55" width="75" height="75"/>
+                <path d="M182,18V83H117V18h65M192,8H107V93h85V8Z" transform="translate(-2 -2.45)"/>
+                <rect class="cls-1" x="17" y="17" width="75" height="75" transform="translate(-14.25 90.59) rotate(-75)"/>
+                <path d="M31.52,14.7,94.3,31.52,77.48,94.3,14.7,77.48,31.52,14.7M24.45,2.45l-22,82.1,82.1,22,22-82.1-82.1-22Z" transform="translate(-2 -2.45)"/>
+            </svg></div>
+            <div>Fragmency</div>
+        </h1>
+        <p>Do it simply !</p>
+        <p>Based for a simple and fast experience, Fragmency offers a refined architecture.</p>
+    </div>
+</body>
+</html>
