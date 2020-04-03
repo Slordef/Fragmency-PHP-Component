@@ -13,6 +13,6 @@ and more
 
 Test server with
 ```
-php -S localhost:8080 server/index.php
+php -S localhost:8080 server/app.php
 ```
 
