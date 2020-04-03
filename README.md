@@ -1,7 +1,7 @@
 ## Fragmency-Component
 All install of Fragmency Packages in one command
 ```
-composer require slordef/fragmency-component
+composer create-project slordef/fragmency-component
 ```
 Fragmency Component come with CLI
 ```
@@ -15,3 +15,4 @@ Test server with
 ```
 php -S localhost:8080 server/index.php
 ```
+
